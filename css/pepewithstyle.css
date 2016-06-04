@@ -40,7 +40,20 @@ font-weight: 300;
   text-decoration: none;
   color:#fff;
 }
+.calls{
+  text-align: center;
+  width: 100%;
+}
+.calltoaction{
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color:#fff;
+  padding: 10px 25px;
+  font-weight: 100;
+  font-size:1.2em !important;
+  text-align: center;
 
+}
 .callText{
   color:#fff;
   font-size: 2em;
@@ -93,5 +106,8 @@ img.logo{
 .services{text-align: center;}
 .services img{
   width: 30px;
-
+}
+.call2actfooter{
+  border-top: 1px solid #9c9c9c;
+  text-align: center;
 }
