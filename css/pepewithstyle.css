@@ -1,0 +1,70 @@
+body{
+  background: #fff;
+}
+.header{
+  width: 100%;
+  height: 1000px;
+  background-size:cover;
+  background: url(../img/landing_pic.png) no-repeat -400px;
+}
+.header .container{
+  z-index: 20;
+  position: relative;
+}
+.orangeblur{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  background: url(../img/gradients.png) no-repeat;
+}
+.gradient-overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1000px;
+  opacity: .7;
+  background: #897767;
+}
+.header ul{
+  float: right;
+}
+.header ul li{
+margin:0;
+display: inline-block;
+padding: 10px 10px;
+text-transform: uppercase;
+font-weight: 300;
+}
+.header li a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.callText{
+  color:#fff;
+  font-size: 2em;
+  font-weight: 300;
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#logoHolder h1{
+  margin: 0;
+  padding: 20px 0;
+  color:#fff;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.phoneholder{
+  position: absolute;
+  margin-top: -600px;
+  width: 100%;
+  text-align: center;
+}
+.phoneholder img{
+  width: 500px;
+
+}
