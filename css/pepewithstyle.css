@@ -3,7 +3,7 @@ body{
 }
 .header{
   width: 100%;
-  height: 1000px;
+  height: 650px;
   background-size:cover;
   background: url(../img/landing_pic.png) no-repeat -400px;
 }
@@ -15,16 +15,16 @@ body{
   position: absolute;
   top: 0;
   width: 100%;
-  height: 1000px;
+  height: 650px;
   background: url(../img/gradients.png) no-repeat;
 }
 .gradient-overlay{
   position: absolute;
   top: 0;
   width: 100%;
-  height: 1000px;
-  opacity: .7;
-  background: #897767;
+  height: 650px;
+  opacity: .9;
+  background: #442b1f;
 }
 .header ul{
   float: right;
@@ -46,7 +46,6 @@ font-weight: 300;
   font-size: 2em;
   font-weight: 300;
   display: block;
-  margin-top: 200px;
   text-align: center;
 }
 
@@ -57,14 +56,37 @@ font-weight: 300;
   font-size: 1.5em;
   font-weight: 700;
 }
-
-.phoneholder{
-  position: absolute;
-  margin-top: -600px;
-  width: 100%;
+.logoimg{
+  display: block;
   text-align: center;
 }
-.phoneholder img{
-  width: 500px;
+img.logo{
+  width: 150px;
+}
+.phoneholder{
+  /*position: absolute;*/
+  margin-top: -200px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  z-index: 50;
 
+}
+.phoneholder img{
+  width: 400px;
+}
+
+.phone p{
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.phone h3{
+  font-weight: 700;
+  font-size: 1.5em;
+  color:#444649;
+}
+.phoneNumber{
+  color:#8d5c45;
+  font-weight: 700;
+  font-size: 1.5em;
 }

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js">
+  </script>
 </head>
 <body>
   <div class="content">
@@ -29,7 +31,9 @@
         </div>
         <div class="row">
           <div class="col l12">
-            <h2 class="callText fadeIn animated">
+            <div class="logoimg wow pulse" data-wow-duration="2s"><img class="logo" src="img/pepeLogo.png" alt=""></div>
+
+            <h2 class="callText wow fadeIn">
               <strong>Pepe</strong>, tu asistente personal.
             </h2>
           </div>
@@ -38,9 +42,27 @@
       <div class="orangeblur"></div>
       <!-- <div class="gradient-overlay"></div> -->
     </div>
-    <div class="phoneholder fadeInUp animated">
-      <img src="img/iphone.png" alt="phone">
+    <div class="phone"  >
+      <div class="row">
+        <div class="col l5 phoneholder wow fadeInUp" data-wow-delay="1.5s">
+          <img src="img/iphone.png" alt="phone">
+        </div>
+        <div class="col l5 wow fadeIn" data-wow-delay="2s">
+          <p>Pepe te ayuda a encontrar servicios cerca de ti.
+  Si quieres proveer un servicio, también Pepe te puede ayudar.
+  Puedes consultarlo a través de SMS desde tu celular,
+  o también desde Facebook Messenger.</p>
+  <h3>¿Necesitas Ayuda?</h3>
+  <p>Salud a Pepe, <br>envía un SMS al:</br>
+  <span class="phoneNumber">52 5549998926</span></p>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </body>
+<script>
+    new WOW().init();
+</script>
 </html>
