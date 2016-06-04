@@ -90,3 +90,8 @@ img.logo{
   font-weight: 700;
   font-size: 1.5em;
 }
+.services{text-align: center;}
+.services img{
+  width: 30px;
+
+}
