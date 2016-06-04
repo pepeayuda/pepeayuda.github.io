@@ -3,7 +3,7 @@ body{
 }
 .header{
   width: 100%;
-  height: 650px;
+  height: 550px;
   background-size:cover;
   background: url(../img/landing_pic.png) no-repeat -400px;
 }
@@ -15,14 +15,14 @@ body{
   position: absolute;
   top: 0;
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: url(../img/gradients.png) no-repeat;
 }
 .gradient-overlay{
   position: absolute;
   top: 0;
   width: 100%;
-  height: 650px;
+  height: 550px;
   opacity: .9;
   background: #442b1f;
 }
