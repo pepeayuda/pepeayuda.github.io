@@ -58,12 +58,42 @@ font-weight: 300;
   border-radius: 5px;
   border: 1px solid #fff;
   color:#fff;
-  padding: 10px 25px;
+  padding: 10px 45px;
   font-weight: 100;
   font-size:1.2em !important;
   text-align: center;
-
 }
+.msncircle{
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50em;
+  position: absolute;
+  float: left;
+  margin-top: -6px;
+  margin-left: -50px;
+}
+.msncircle img{
+  width: 26px;
+  margin-top: 8px;
+}
+.BettaButton{
+  border-radius: 5px;
+  border: 1px solid #0084ff;
+  background: #0084ff;
+  color:#fff;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-weight: 100;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  background-size: 30px;
+  margin-right: auto;
+  font-size:1.2em !important;
+  text-align: center;
+}
+
 .callText{
   color:#fff;
   font-size: 2em;
